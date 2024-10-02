@@ -20,11 +20,11 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Introduction
+# Introduction
 
 Welcome to Streamify Dashboard, a comprehensive analytics tool designed to provide insightful metrics for your streaming platform. Whether you’re tracking user growth, engagement metrics, revenue distribution, or top-performing songs, Streamify Dashboard offers a user-friendly interface to visualize and interpret your data effectively.
 
-# Features
+## Features
 
 	•	Metrics Cards: Quick overview of key statistics like Total Users, Active Users, Total Streams, Revenue, and Top Artist.
 	•	User Growth Chart: Visual representation of user growth over the past 12 months with customizable time frames.
@@ -34,7 +34,7 @@ Welcome to Streamify Dashboard, a comprehensive analytics tool designed to provi
 	•	Streams Table: Detailed view of recent streams.
 	•	Light/Dark Mode Toggle: Seamlessly switch between light and dark themes for better accessibility and user experience.
 
-# Technologies Used
+## Technologies Used
 
 	•	Next.js: React framework for server-rendered applications.
 	•	React: JavaScript library for building user interfaces.
@@ -44,7 +44,7 @@ Welcome to Streamify Dashboard, a comprehensive analytics tool designed to provi
 	•	Recharts: Charting library built on React components.
 	•	Next-Themes: Manage light and dark themes in Next.js.
 
-#Thought Process
+## Thought Process
 
 Building the Streamify Dashboard involved several key considerations to ensure a balance between functionality, performance, and user experience:
 
