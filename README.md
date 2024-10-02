@@ -20,17 +20,45 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Introduction
 
-To learn more about Next.js, take a look at the following resources:
+Welcome to Streamify Dashboard, a comprehensive analytics tool designed to provide insightful metrics for your streaming platform. Whether you’re tracking user growth, engagement metrics, revenue distribution, or top-performing songs, Streamify Dashboard offers a user-friendly interface to visualize and interpret your data effectively.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+	•	Metrics Cards: Quick overview of key statistics like Total Users, Active Users, Total Streams, Revenue, and Top Artist.
+	•	User Growth Chart: Visual representation of user growth over the past 12 months with customizable time frames.
+	•	Revenue Distribution Pie Chart: Breakdown of revenue sources with interactive segments.
+	•	Engagement Metrics Chart: Monitor user engagement through metrics like Average Session Duration, Retention Rate, and Churn Rate.
+	•	Top Songs Bar Chart: Highlight your top 5 streamed songs.
+	•	Streams Table: Detailed view of recent streams.
+	•	Light/Dark Mode Toggle: Seamlessly switch between light and dark themes for better accessibility and user experience.
 
-## Deploy on Vercel
+# Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+	•	Next.js: React framework for server-rendered applications.
+	•	React: JavaScript library for building user interfaces.
+	•	TypeScript: Superset of JavaScript for static typing.
+	•	Tailwind CSS: Utility-first CSS framework for rapid UI development.
+	•	Shadcn UI: Tailwind CSS-based component library for consistent styling.
+	•	Recharts: Charting library built on React components.
+	•	Next-Themes: Manage light and dark themes in Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#Thought Process
+
+Building the Streamify Dashboard involved several key considerations to ensure a balance between functionality, performance, and user experience:
+
+	1.	User-Centric Design:
+	•	Prioritized ease of use by organizing metrics into intuitive cards and charts.
+	•	Implemented responsive design to ensure accessibility across devices.
+	2.	Scalability:
+	•	Chose Next.js for its server-side rendering capabilities, enhancing performance and SEO.
+	•	Utilized TypeScript to enforce type safety, reducing bugs and improving maintainability.
+	3.	Consistent Styling:
+	•	Adopted Tailwind CSS combined with Shadcn UI to maintain a consistent and customizable design language.
+	•	Integrated Recharts for dynamic and interactive data visualization.
+	4.	Theming:
+	•	Incorporated a Light/Dark mode toggle using next-themes, catering to user preferences and enhancing accessibility.
+	5.	Modular Architecture:
+	•	Developed reusable components (e.g., MetricsCard, UserGrowthChart) to promote code reusability and simplify future enhancements.
+
